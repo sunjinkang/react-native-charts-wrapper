@@ -81,15 +81,15 @@ class LineChartScreen extends React.Component {
                   label: "",
                   config: {
                     mode: "CUBIC_BEZIER",
-                    drawValues: false,
+                    drawValues: false,//折线上显示数值
                     lineWidth: 2,
-                    drawCircles: true,
+                    drawCircles: true,//折线上显示圆点
                     circleColor: processColor(petrel),
                     drawCircleHole: false,
                     circleRadius: 5,
                     highlightColor: processColor("transparent"),
                     color: processColor(petrel),
-                    drawFilled: true,
+                    drawFilled: true,//填充折线下方
                     fillGradient: {
                       colors: [processColor(petrel), processColor(greenBlue)],
                       positions: [0, 0.5],
